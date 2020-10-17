@@ -1,0 +1,112 @@
+* {
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.SanSwas {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.m_color {
+    border: 1px solid #851E3E;
+    color: #851E3E;
+}
+
+.thebackgrad {
+    background-image: linear-gradient(to left, #851E3E, #061E3E);
+}
+
+.thelowgrad {
+    background-color: #851E3E;
+}
+
+.thehighgrad {
+    background-color: #061E3E;
+}
+
+.maxw_home {
+    max-height: 500px;
+}
+
+.obj-cov {
+    object-fit: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.text-over-img {
+    position: relative;
+    top: -250px;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.black-mode {
+    background-color: #000000!important;
+    color: white;
+}
+
+.dark-mode {
+    background-color: #1B1B1B;
+    color: white;
+}
+
+@media (max-width:576px) {
+    #heading {
+        font-size: 3rem;
+    }
+}
+
+.w-wrap {
+    word-wrap: break-word;
+}
